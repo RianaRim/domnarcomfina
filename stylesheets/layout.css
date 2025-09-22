@@ -1,0 +1,141 @@
+/* body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainText1 {
+    font-size: 21px;
+    margin-top: 80px;
+    margin-bottom: 4px;
+}
+.mainText2 {
+    font-size: 21px;
+    margin-bottom: 36px;
+}
+.mainText3 {
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+.mainText4 {
+    font-size: 17px;
+    margin-bottom: 28px;
+}
+.mainText5 {
+    font-size: 17px;
+    margin-top: 64px;
+    margin-bottom: 28px;
+}
+.secondText {
+    color: rgb(166, 166, 166);
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.thirdText1 {
+    font-size: 11px;
+    margin-top: 52px;
+    margin-bottom: 5px;
+}
+.thirdText2 {
+    font-size: 11px;
+    margin-bottom: 90px;
+}
+.thirdText3 {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.thirdText4 {
+    font-size: 11px;
+    margin-bottom: 22px;
+}
+.thirdText5 {
+    font-size: 11px;
+    margin-bottom: 26px;
+} */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,cite,hr {
+    width: 700px;
+    margin: 0 auto;
+}
+img {
+    width: 1024px;
+    margin: 0 auto;
+    display: block;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+}
+p,ol,ul,cite {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+h1 + p {
+    color: rgba(0,0,0,0.4);
+}
+a {
+    color: inherit;
+}
+h1 {
+    margin: 50px auto;
+    font-size: 38px;
+    line-height: 45px;
+}
+h2 {
+    margin-top: 40px;
+    font-size: 32px;
+    line-height: 36px;
+}
+h3 {
+    margin-top: 36px;
+    font-size: 28px;
+    line-height: 32px;
+}
+h4 {
+    margin-top: 32px;
+    font-size: 24px;
+    line-height: 28px;
+}
+h5 {
+    margin-top: 28px;
+    font-size: 22px;
+    line-height: 24px;
+}
+hr {
+    margin: 12px auto;
+    width: 1024px;
+}
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p {
+    margin-top: 10px;
+}
+ul {
+    list-style-type: square;
+    padding-left: 32px;
+}
+ol {
+    list-style-type: decimal;
+    padding-left: 32px;
+}
+li {
+    margin: 10px auto;
+}
+cite {
+    font-style: italic;
+    position: relative;
+}
+cite::before {
+    content: "";
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    left: -17px;
+}
