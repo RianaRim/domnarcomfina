@@ -1,8 +1,8 @@
-/* body {
+body {
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
-.mainText1 {
+/* .mainText1 {
     font-size: 21px;
     margin-top: 80px;
     margin-bottom: 4px;
@@ -56,7 +56,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
 }
-h1,h2,h3,h4,h5,p,ul,ol,li,cite,hr {
+h1,h2,h3,h4,h5,h6,p,ul,ol,blockquote,hr {
     width: 700px;
     margin: 0 auto;
 }
@@ -65,11 +65,11 @@ img {
     margin: 0 auto;
     display: block;
 }
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,h6 {
     font-family: 'PT Sans Caption', sans-serif;
     font-weight: bold;
 }
-p,ol,ul,cite {
+p,ol,ul,blockquote {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 30px;
@@ -109,14 +109,11 @@ hr {
     margin: 12px auto;
     width: 1024px;
 }
-h2 + p,
-h3 + p,
-h4 + p,
-h5 + p {
+h2 + p, h3 + p, h4 + p, h5 + p {
     margin-top: 10px;
 }
 ul {
-    list-style-type: square;
+    list-style-type: disc;
     padding-left: 32px;
 }
 ol {
@@ -126,12 +123,12 @@ ol {
 li {
     margin: 10px auto;
 }
-cite {
+blockquote {
     font-style: italic;
     position: relative;
 }
-cite::before {
-    content: "";
+blockquote::before {
+    content: '';
     width: 3px;
     height: 100%;
     position: absolute;
